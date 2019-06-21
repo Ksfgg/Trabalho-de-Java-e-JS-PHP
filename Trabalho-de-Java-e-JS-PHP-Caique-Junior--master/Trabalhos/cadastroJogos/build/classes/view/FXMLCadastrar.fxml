@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLCadastrarController">
+   <children>
+      <Label layoutX="65.0" layoutY="25.0" text="Nome da empresa:" />
+      <Label layoutX="65.0" layoutY="50.0" text="Nome do jogo:" />
+      <Label layoutX="65.0" layoutY="76.0" text="Gênero:" />
+      <Label layoutX="65.0" layoutY="100.0" text="Tipo:" />
+      <Label layoutX="65.0" layoutY="123.0" text="Plataforma:" />
+      <TextField fx:id="txtNDE" layoutX="159.0" layoutY="21.0" prefHeight="14.0" prefWidth="116.0" />
+      <TextField fx:id="txtG" layoutX="159.0" layoutY="72.0" prefHeight="14.0" prefWidth="116.0" />
+      <TextField fx:id="txtP" layoutX="159.0" layoutY="119.0" prefHeight="14.0" prefWidth="116.0" />
+      <TextField fx:id="txtT" layoutX="159.0" layoutY="96.0" prefHeight="14.0" prefWidth="116.0" />
+      <TextField fx:id="txtNDJ" layoutX="159.0" layoutY="46.0" prefHeight="14.0" prefWidth="116.0" />
+      <Button layoutX="227.0" layoutY="178.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLVisualizarController">
+   <children>
+      <TableView fx:id="tabela" layoutX="6.0" layoutY="6.0" prefHeight="322.0" prefWidth="593.0">
+        <columns>
+          <TableColumn fx:id="colNDJ" prefWidth="141.0" text="Nome do jogo" />
+          <TableColumn fx:id="colNDE" prefWidth="107.0" text="Nome da empresa" />
+            <TableColumn fx:id="colG" prefWidth="85.0" text="Gênero" />
+            <TableColumn fx:id="colT" prefWidth="101.0" text="Tipo" />
+            <TableColumn fx:id="colP" prefWidth="110.0" text="Platafotma" />
+        </columns>
+      </TableView>
+      <Button layoutX="279.0" layoutY="345.0" mnemonicParsing="false" onAction="#btExcluir" text="Excluir" />
+   </children>
+</AnchorPane>
